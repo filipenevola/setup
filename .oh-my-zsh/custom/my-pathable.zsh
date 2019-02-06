@@ -1,0 +1,1 @@
+alias apply-hotfix="cd /Users/filipenevola/Documents/pathable/ws/deploy/pathable-next/config/jenkins/ && ./apply-hotfix.sh"
