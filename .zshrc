@@ -21,6 +21,7 @@ export PATH=$HOME/bin:/usr/local/bin:$ANDROID_HOME:$ANDROID_HOME/platform-tools:
 # MONGODB
 export MONGO_HOME=/usr/local/Cellar/mongodb/4.0.3
 export PATH=$MONGO_HOME/bin:$PATH
+ulimit -n 2048
 
 # GIT
 export GIT_MERGE_AUTOEDIT=no
