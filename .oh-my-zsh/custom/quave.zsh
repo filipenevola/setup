@@ -5,3 +5,5 @@ alias bemarke-build-production="cd /Users/filipenevola/Documents/quave/ws/deploy
 alias bemarke-copy-production="cd /Users/filipenevola/Documents/quave/ws/deploys/production/bemarke/private/env/production && ./copydb.sh"
 alias bemarke-restore-production="cd /Users/filipenevola/Documents/quave/ws/deploys/production/bemarke/private/env/production && ./restoredb.sh"
 alias bemarke-copy-restore-production="bemarke-copy-production && bemarke-restore-production"
+alias bemarke-restore-production-to-staging="cd /Users/filipenevola/Documents/quave/ws/deploys/production/bemarke/private/env/production && ./restoredb-to-staging.sh"
+alias bemarke-apply-hotfix="cd /Users/filipenevola/Documents/quave/ws/deploys/production/bemarke/private/config/jenkins && ./apply-hotfix.sh"
