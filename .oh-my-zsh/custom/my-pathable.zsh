@@ -1,5 +1,6 @@
 alias apply-hotfix="cd /Users/filipenevola/Documents/pathable/ws/deploy/pathable-next/config/jenkins/ && ./apply-hotfix.sh"
-alias release-development="cd /Users/filipenevola/Documents/pathable/ws/deploy/pathable-next/config/jenkins/ && ./prepare-production-deploy.sh"
+alias prepare-staging-from-development="cd /Users/filipenevola/Documents/pathable/ws/deploy/pathable-next/config/jenkins/ && ./prepare-staging-deploy.sh"
+alias prepare-production-from-development="cd /Users/filipenevola/Documents/pathable/ws/deploy/pathable-next/config/jenkins/ && ./prepare-production-deploy.sh"
 alias copy-production="cd /Users/filipenevola/Documents/pathable/ws/pathable-next/config/db/backups/production && ./copydb.sh"
 alias restore-production="cd /Users/filipenevola/Documents/pathable/ws/pathable-next/config/db/backups/production && ./restoredb.sh"
 alias copy-restore-production="copy-production && restore-production"
