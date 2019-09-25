@@ -1,3 +1,4 @@
+alias bemarke-cd="cd /Users/filipenevola/Documents/quave/ws/deploys/production/bemarke/private/env/dev"
 alias bemarke-prepare-staging="cd /Users/filipenevola/Documents/quave/ws/deploys/staging/bemarke/private/env/staging && ./prepare-deploy.sh"
 alias bemarke-deploy-staging="cd /Users/filipenevola/Documents/quave/ws/deploys/staging/bemarke/private/env/staging && ./deploy.sh"
 alias bemarke-prepare-and-deploy-staging="bemarke-prepare-staging && bemarke-deploy-staging"
