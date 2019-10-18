@@ -1,5 +1,5 @@
 alias ps-meteor="ps aux|grep 'meteor\|max-old-space-size=\|json --port'"
-alias quave-update-custom="cd /Users/filipenevola/Documents/filipe/ws/setup && git reset --hard && git checkout master && git pull && cp .oh-my-zsh/custom/quave.zsh ~/.oh-my-zsh/custom"
+alias quave-update-custom="cd /Users/filipenevola/Documents/filipe/ws/setup && git reset --hard && git checkout master && git pull && cp .oh-my-zsh/custom/quave.zsh ~/.oh-my-zsh/custom && echo '~/.oh-my-zsh/custom/quave.zsh updated'"
 alias bemarke-cd="cd /Users/filipenevola/Documents/quave/ws/deploys/bemarke/private/env/dev"
 alias bemarke-sync="cd /Users/filipenevola/Documents/quave/ws/deploys/bemarke && git reset --hard && git checkout master && git pull"
 alias bemarke-prepare-staging="cd /Users/filipenevola/Documents/quave/ws/deploys/bemarke/private/env/staging && ./prepare-deploy.sh"
