@@ -32,3 +32,8 @@ export PATHABLE_NEXT_HOME=/Users/filipenevola/Documents/pathable/ws/pathable-nex
 
 # METEOR
 alias mymeteor=/Users/filipenevola/Documents/filipe/ws/forks/meteor/meteor
+
+#GO
+export GOBIN=/usr/local/Cellar/go/1.13.4/bin 
+export PATH=$GOBIN:$PATH
+
