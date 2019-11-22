@@ -3,13 +3,14 @@ export ZSH=/Users/filipenevola/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 plugins=(
   git
+  flutter
 )
 
 # OH-MY-ZSH
 source $ZSH/oh-my-zsh.sh
 
 # NODEJS
-export NODE_OPTIONS="--max-old-space-size=4096"
+export NODE_OPTIONS="--max-old-space-size=1024"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -33,7 +34,21 @@ export PATHABLE_NEXT_HOME=/Users/filipenevola/Documents/pathable/ws/pathable-nex
 # METEOR
 alias mymeteor=/Users/filipenevola/Documents/filipe/ws/forks/meteor/meteor
 
+# FASTLANE
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# FLUTTER
+export PATH=/Users/filipenevola/Documents/dev/flutter/bin:$PATH
+
 #GO
 export GOBIN=/usr/local/Cellar/go/1.13.4/bin 
 export PATH=$GOBIN:$PATH
 
+#AMSTERDAM
+export PATH=/Users/filipenevola/Documents/meteor/ws/amsterdam/bin:$PATH
+
+#WEBSTORM
+export PATH=/Users/filipenevola/Library/Application\ Support/JetBrains/Toolbox/apps/WebStorm/ch-0/192.7142.35/WebStorm.app/Contents/MacOS:$PATH
+
+[[ -s ~/.envrc ]] && source ~/.envrc
