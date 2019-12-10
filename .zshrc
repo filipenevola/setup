@@ -32,7 +32,7 @@ export METEOR_PACKAGE_DIRS=/Users/filipenevola/Documents/pathable/ws/pathable-ne
 export PATHABLE_NEXT_HOME=/Users/filipenevola/Documents/pathable/ws/pathable-next
 
 # METEOR
-alias mymeteor=/Users/filipenevola/Documents/filipe/ws/forks/meteor/meteor
+alias mymeteor=/Users/filipenevola/Documents/meteor/ws/meteor/meteor
 
 # FASTLANE
 export LC_ALL=en_US.UTF-8
