@@ -2,6 +2,9 @@
 
 # dev tools
 
+- zsh
+- oh-my-zsh
+- git
 - WebStorm
 - NoSQLBooster
 - GoLand
