@@ -8,8 +8,6 @@
 - XCode
 - Android Studio
 
-- DevHub
-
 # communication tools
 - Slack
 - Zoom
